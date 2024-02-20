@@ -15,7 +15,6 @@ import { verifyAccessToken } from "./helpers/jwt_helper.js";
 import errorHandlerMiddleware from "./middleware/error-handler.js";
 import notFoundMiddleware from "./middleware/not-found.js";
 
-
 if (process.env.NODE_ENV !== "production") {
   app.use(morgan("dev"));
 }
