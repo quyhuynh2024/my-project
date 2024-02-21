@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    // ! STEP 1: Ctrl + , > open WORKSPACE (not USER) (search: tsserver) > settings.json > "typescript.tsdk": "./client/node_modules/typescript/lib"
+    // ! STEP 2: open a .ts or .tsx file in VScode > Ctrl + p > search: > Typescript: Select Typescript version... > use WORKSPACE version
     "jsx": "react-jsx",
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "ESNext",
